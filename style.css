@@ -1,0 +1,95 @@
+/* Main Container */
+.main {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: Helvetica, Arial, sans-serif;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Line */
+#header_line {
+  border-top: 2px solid black;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Name Styling */
+.name {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Section Headings */
+.starter {
+  color: rgb(19, 158, 6);
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* Subheading for Education or Other Titles */
+.namer {
+  color: rgb(16, 157, 227);
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Info Text */
+.info {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* Skills List Styling */
+.skills {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
+/* Link Styling */
+.info a {
+  color: rgb(16, 102, 255);
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: rgb(19, 158, 6);
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .main {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .name {
+    font-size: 1.8em;
+  }
+
+  .starter,
+  .namer {
+    font-size: 1em;
+  }
+}
