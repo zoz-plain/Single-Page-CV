@@ -2,7 +2,7 @@
 
 This project is aimed at creating a single-page CV that is semantically correct, optimized for search engines, and ready for styling. The purpose of this CV is to showcase personal skills, education, and career experience in a visually appealing manner.
 
-## Roadmap
+You can find more information about this project on [Roadmap.sh](https://roadmap.sh/projects/single-page-cv).
 
 ### Key Requirements
 
@@ -33,7 +33,7 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/single-page-cv.git
+   git clone https://github.com/zoz-plain/Single-Page-CV
    ```
 
 ### Explanation of the Sections
